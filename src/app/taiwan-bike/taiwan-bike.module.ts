@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { NgModule } from '@angular/core';
+import { ButtonModule } from 'primeng/button';
+import { ToolbarModule } from 'primeng/toolbar';
+import { IndexComponent } from './index/index.component';
 import { TaiwanBikeRoutingModule } from './taiwan-bike-routing.module';
 import { TaiwanBikeComponent } from './taiwan-bike.component';
-import { IndexComponent } from './index/index.component';
-
 
 @NgModule({
   declarations: [
@@ -13,7 +13,9 @@ import { IndexComponent } from './index/index.component';
   ],
   imports: [
     CommonModule,
-    TaiwanBikeRoutingModule
+    TaiwanBikeRoutingModule,
+    ButtonModule,
+    ToolbarModule,
   ]
 })
 export class TaiwanBikeModule { }
