@@ -5,8 +5,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { ToolbarModule } from 'primeng/toolbar';
-
 @NgModule({
   declarations: [
     AppComponent
@@ -15,8 +13,6 @@ import { ToolbarModule } from 'primeng/toolbar';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-
-    ToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
